@@ -1,0 +1,18 @@
+/* app global css */
+
+body {
+  -webkit-print-color-adjust: exact !important;
+  print-color-adjust: exact !important;
+}
+
+@media print {
+  .q-drawer-container {
+    display: none;
+  }
+  .q-page-container {
+    padding-left: 0 !important;
+  }
+  .q-header {
+    display: none;
+  }
+}
